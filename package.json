@@ -1,0 +1,23 @@
+{
+  "name": "com.kiltec.mynotes",
+  "version": "0.0.11",
+  "displayName": "My Notes by pwnedu",
+  "description": "Productivity tools for everyone",
+  "unity": "2018.1",
+  "documentationUrl": "https://github.com/pwnedu/MyNotes/wiki",
+  "licensesUrl": "https://github.com/pwnedu/MyNotes/blob/main/LICENSE",
+  "keywords": [
+    "unity",
+    "tools",
+    "editor",
+    "notes",
+    "productivity",
+    "pwnedu",
+    "kiltec"
+  ],
+  "author": {
+    "name": "Kiltec",
+    "url": "https://github.com/pwnedu"
+  },
+  "type": "tool"
+}
