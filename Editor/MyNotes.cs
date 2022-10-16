@@ -160,7 +160,7 @@ namespace MyNotes
             {
                 if (documentChanged == "not saved")
                 {
-                    if (EditorUtility.DisplayDialog("Close Script", "This will close your notes without saving." + nl + "Are you sure?", "Confirm"))
+                    if (EditorUtility.DisplayDialog("Close Script", "This will close your notes without saving." + nl + "Are you sure?", "Confirm", "Cancel"))
                     {
                         this.Close();
                     }
@@ -246,7 +246,7 @@ namespace MyNotes
         {
             string path = referencePath + fileName + extension;
 
-            if (EditorUtility.DisplayDialog("Delete " + appName + " data", "This will clear all of your saved note data." + nl + "Are you sure?", "Confirm"))
+            if (EditorUtility.DisplayDialog("Delete " + appName + " data", "This will clear all of your saved note data." + nl + "Are you sure?", "Confirm", "Cancel"))
             {
                 if (File.Exists(path))
                 {
