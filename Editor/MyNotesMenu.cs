@@ -18,7 +18,7 @@ namespace MyNotes
         [MenuItem(menuItem + "Note Style Settings", priority = 30)]
         private static void NoteSettings()
         {
-            var path = $"{toolPath}New My Notes Style.asset";
+            var path = $"{toolPath}My Notes Style.asset";
 
             if (!File.Exists(path)) { return; }
 

@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 22d03137d8e52ec46bd8fdb8cc64b07e, type: 3}
-  m_Name: Default My Notes Style
+  m_Name: My Notes Style
   m_EditorClassIdentifier: 
   style:
-    backgroundColor: {r: 1, g: 0.7717007, b: 0.2028302, a: 1}
+    backgroundColor: {r: 0.9811321, g: 0.7894014, b: 0.31007475, a: 1}
     randomBackgroundColor: 0
     headerColor: {r: 0.3160377, g: 0.35398915, b: 1, a: 1}
     randomHeaderColor: 0

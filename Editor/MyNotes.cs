@@ -15,8 +15,8 @@ namespace MyNotes
         static readonly string fileName = "MyNote";
         static readonly string extension = ".txt";
         static readonly string appName = "My Notes";
-        static readonly string appVersion = "v1.2";
-        static readonly int lines = 4;
+        static readonly string appVersion = "v1.3";
+        static readonly int lines = 1;
 
         //layout and style
         private static MyNotesStyle styleData;
