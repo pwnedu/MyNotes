@@ -6,10 +6,10 @@ namespace MyNotes
 {
     public class MyNotesMenu : MonoBehaviour
     {
-        const string menuItem = "Tools/Notes/";
-        const string toolPath = "Packages/com.kiltec.unitytools/Editor/MyNotes/";
+        const string menuItem = "Tools/My Notes/";
+        const string toolPath = "Packages/com.kiltec.mynotes/Editor/";
 
-        [MenuItem(menuItem + "My Notes %&n", priority = 20)] // Shortcut [Ctrl + Alt + N]
+        [MenuItem(menuItem + "Edit Note %&n", priority = 20)] // Shortcut [Ctrl + Alt + N]
         public static void ShowWindow()
         {
             MyNotes.GetWindow(typeof(MyNotes));
