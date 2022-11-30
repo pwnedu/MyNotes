@@ -5,7 +5,7 @@ using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace MyNotes
+namespace pwnedu.MyNotes
 {
     public class MyNotes : EditorWindow
     {
@@ -19,7 +19,7 @@ namespace MyNotes
         static readonly int lines = 1;
 
         //layout and style
-        private static MyNotesStyle styleData;
+        public static MyNotesStyle styleData;
         Color headerColour = new Color32(60, 60, 180, 255);
         Color borderColour = new Color32(180, 120, 80, 255);
         Texture2D headerTexture;
@@ -273,6 +273,7 @@ namespace MyNotes
             }
         }
 
+        [InitializeOnLoadMethod]
         private static void FindStyleData()
         {
             var guids = AssetDatabase.FindAssets($"t:{typeof(MyNotesStyle)}");

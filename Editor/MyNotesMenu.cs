@@ -2,9 +2,9 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace MyNotes
+namespace pwnedu.MyNotes
 {
-    public class MyNotesMenu : MonoBehaviour
+    public class MyNotesMenu
     {
         const string menuItem = "Tools/My Notes/";
         const string toolPath = "Packages/com.kiltec.mynotes/Editor/";
@@ -18,13 +18,8 @@ namespace MyNotes
         [MenuItem(menuItem + "Note Style Settings", priority = 30)]
         private static void NoteSettings()
         {
-            var path = $"{toolPath}My Notes Style.asset";
-
-            if (!File.Exists(path)) { return; }
-
-            var asset = AssetDatabase.LoadAssetAtPath<Object>(path);
-            EditorGUIUtility.PingObject(asset);
-            Selection.activeObject = asset;
+            EditorGUIUtility.PingObject(MyNotes.styleData);
+            Selection.activeObject = MyNotes.styleData;
         }
 
         [MenuItem(menuItem + "Note Help", priority = 40)]

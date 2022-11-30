@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace MyNotes
+namespace pwnedu.MyNotes
 {
     [CustomEditor(typeof(MyNotesStyle))]
     public class MyNotesStyleEditor : Editor
