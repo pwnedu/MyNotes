@@ -1,8 +1,8 @@
 {
   "name": "com.kiltec.mynotes",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "displayName": "My Notes by pwnedu",
-  "description": "Productivity tools for everyone",
+  "description": "A simplistic note application for Unity",
   "unity": "2018.1",
   "documentationUrl": "https://github.com/pwnedu/MyNotes/wiki",
   "licensesUrl": "https://github.com/pwnedu/MyNotes/blob/main/LICENSE",
