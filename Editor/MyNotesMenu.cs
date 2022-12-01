@@ -18,8 +18,8 @@ namespace pwnedu.MyNotes
         [MenuItem(menuItem + "Note Style Settings", priority = 30)]
         private static void NoteSettings()
         {
-            EditorGUIUtility.PingObject(MyNotes.styleData);
-            Selection.activeObject = MyNotes.styleData;
+            EditorGUIUtility.PingObject(MyNotes.StyleData);
+            Selection.activeObject = MyNotes.StyleData;
         }
 
         [MenuItem(menuItem + "Note Help", priority = 40)]

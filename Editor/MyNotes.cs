@@ -19,7 +19,8 @@ namespace pwnedu.MyNotes
         static readonly int lines = 1;
 
         //layout and style
-        public static MyNotesStyle styleData;
+        private static MyNotesStyle styleData;
+        public static MyNotesStyle StyleData => styleData;
         Color headerColour = new Color32(60, 60, 180, 255);
         Color borderColour = new Color32(180, 120, 80, 255);
         Texture2D headerTexture;
