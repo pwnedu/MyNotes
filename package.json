@@ -4,6 +4,7 @@
   "displayName": "My Notes by pwnedu",
   "description": "A simplistic note application for Unity",
   "unity": "2018.1",
+  "changelogUrl": "https://github.com/pwnedu/MyNotes/blob/main/CHANGELOG.md",
   "documentationUrl": "https://github.com/pwnedu/MyNotes/wiki",
   "licensesUrl": "https://github.com/pwnedu/MyNotes/blob/main/LICENSE.md",
   "keywords": [
