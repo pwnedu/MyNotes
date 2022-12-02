@@ -5,7 +5,7 @@
   "description": "A simplistic note application for Unity",
   "unity": "2018.1",
   "documentationUrl": "https://github.com/pwnedu/MyNotes/wiki",
-  "licensesUrl": "https://github.com/pwnedu/MyNotes/blob/main/LICENSE",
+  "licensesUrl": "https://github.com/pwnedu/MyNotes/blob/main/LICENSE.md",
   "keywords": [
     "unity",
     "tools",
